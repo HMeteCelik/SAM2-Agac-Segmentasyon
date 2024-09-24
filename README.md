@@ -22,9 +22,9 @@ python3 Test.py  (Modelin test edilmesi ve IoU sonuçlarının çıkarılması)
 Model 2 Kullanımı:
 
 cd Model2
------Maskeler Üretilmiştir Kullanılmasına Gerek Yoktur-----
+/////Maskeler Üretilmiştir Kullanılmasına Gerek Yoktur/////
 python3 Mask.py  (Gerekli maskelerin üretilmesi)
------------------------------------------------------------
+///////////////////////////////////////////////////////////
 python3 Train.py (Model eğitimi ve IoU sonuçlarının çıkarılması)
 python3 Test.py  (Modelin test edilmesi ve IoU sonuçlarının çıkarılması)
 
