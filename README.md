@@ -1,4 +1,4 @@
-#Proje ReadMe
+# Proje ReadMe
 Bu proje, drone görüntüleri kullanılarak çekilen fotoğraflardan hasarlı ağaçların tespitini amaçlamaktadır.
 
 Kullanılan model:
@@ -29,7 +29,7 @@ python3 Train.py (Model eğitimi ve IoU sonuçlarının çıkarılması)
 python3 Test.py  (Modelin test edilmesi ve IoU sonuçlarının çıkarılması)
 
 
-#Orijinal ReadMe
+# Orijinal ReadMe
 # SAM 2: Segment Anything in Images and Videos
 
 **[AI at Meta, FAIR](https://ai.meta.com/research/)**
