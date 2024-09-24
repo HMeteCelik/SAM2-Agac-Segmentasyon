@@ -28,7 +28,7 @@ Bu proje, drone kameralarıyla çekilen fotoğraflardan hasarlı ağaçların te
 
 ## Model 2 Kullanımı:
 
-1. ** Gerekli maskelerin üretilmesi (Maskeler Üretilmiştir Kullanılmasına Gerek Yoktur)
+1. ** Gerekli maskelerin üretilmesi (Maskeler Üretilmiştir Kullanılmasına Gerek Yoktur) **
     ```bash
     cd Model2
    python3 Mask.py
