@@ -16,26 +16,28 @@ Bu proje, drone kameralarıyla çekilen fotoğraflardan hasarlı ağaçların te
 
 ## Model 1 Kullanımı
 
-1. **Modelin Eğitilmesi**:
+1. **Modelin Eğitilmesi ve IoU Sonuçlarının Çıkarılması**:
    ```bash
    cd Model1
    python3 Train.py
 
+2. **Modelin Test Edilmesi ve IoU Sonuçlarının :ıkarılması**
+    ```bash
+   python3 Test.py
 
-Model 1 Kullanımı:
- 
-cd Model1
-python3 Train.py (Model eğitimi ve IoU sonuçlarının çıkarılması)
-python3 Test.py  (Modelin test edilmesi ve IoU sonuçlarının çıkarılması)
 
-Model 2 Kullanımı:
+## Model 2 Kullanımı:
 
-cd Model2
-/////Maskeler Üretilmiştir Kullanılmasına Gerek Yoktur/////
-python3 Mask.py  (Gerekli maskelerin üretilmesi)
-///////////////////////////////////////////////////////////
-python3 Train.py (Model eğitimi ve IoU sonuçlarının çıkarılması)
-python3 Test.py  (Modelin test edilmesi ve IoU sonuçlarının çıkarılması)
+1. ** Gerekli maskelerin üretilmesi (Maskeler Üretilmiştir Kullanılmasına Gerek Yoktur)
+    ```bash
+    cd Model2
+   python3 Mask.py
+2. **Modelin Eğitilmesi ve IoU Sonuçlarının Çıkarılması**:
+   ```bash
+   python3 Train.py
+3. **Modelin Test Edilmesi ve IoU Sonuçlarının :ıkarılması**
+    ```bash
+   python3 Test.py
 
 
 # Orijinal ReadMe
