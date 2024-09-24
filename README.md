@@ -1,17 +1,26 @@
-# Proje ReadMe
-Bu proje, drone görüntüleri kullanılarak çekilen fotoğraflardan hasarlı ağaçların tespitini amaçlamaktadır.
+# Drone Görüntülerinden Hasarlı Ağaç Tespiti
 
-Kullanılan model:
-Segment Anything Model 2 (SAM2)
+Bu proje, drone kameralarıyla çekilen fotoğraflardan hasarlı ağaçların tespit edilmesi üzerine odaklanmıştır. Segmentasyon modeli olarak Segment Anything Model 2 (SAM2) kullanılmıştır.
 
-Kullanılan kütüphaneler:
-numpy -> 1.26.4
-torch -> 2.4.0
-pandas -> 2.2.2
-cv2 -> 4.10.0
-matplotlib.pyplot -> 3.9.2
-beautifulsoup4 -> 4.12.3
-os
+## Kullanılan Model
+- **Segment Anything Model 2 (SAM2)**
+
+## Kullanılan Kütüphaneler
+- **numpy**: 1.26.4
+- **torch**: 2.4.0
+- **pandas**: 2.2.2
+- **cv2**: 4.10.0
+- **matplotlib.pyplot**: 3.9.2
+- **beautifulsoup4**: 4.12.3
+- **os**
+
+## Model 1 Kullanımı
+
+1. **Modelin Eğitilmesi**:
+   ```bash
+   cd Model1
+   python3 Train.py
+
 
 Model 1 Kullanımı:
  
